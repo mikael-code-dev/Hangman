@@ -183,12 +183,8 @@ void Start()
     Console.WriteLine("\n Gues the right word/sentence");
     Console.WriteLine(" You have 10 tries before you're hanged!");
     
-    for (int i = 0; i > 0; i--)
-    {
-        Thread.Sleep(500);
-        Console.WriteLine($"  {i}");
-        Console.SetCursorPosition(0, Console.CursorTop - 1);
-    }
+    Thread.Sleep(4000);
+
 
     Console.Clear();
 }
